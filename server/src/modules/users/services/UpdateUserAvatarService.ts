@@ -16,7 +16,7 @@ interface IRequest {
 @injectable()
 class UpdateUserAvatarService {
   constructor(
-    @inject('usersRepository')
+    @inject('UsersRepository')
     private usersRepository: IUsersRepository,
   ) {}
 
@@ -36,13 +36,10 @@ class UpdateUserAvatarService {
       }
     }
 
-    // Atualiza o avatar
     user.avatar = avatarFilename;
 
-    // Salva o usuário no bd
     await this.usersRepository.save(user);
 
-    // Retorna o usuário
     return user;
   }
 }
