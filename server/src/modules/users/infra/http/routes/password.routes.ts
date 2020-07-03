@@ -9,4 +9,8 @@ const resetPasswordController = new ResetPasswordController();
 
 passwordRouter.post('/forgot', forgotPasswordController.create);
 passwordRouter.post('/reset', resetPasswordController.create);
+<<<<<<< HEAD
+=======
+
+>>>>>>> b551b0473227187913d775199ae4155f0aafaebc
 export default passwordRouter;

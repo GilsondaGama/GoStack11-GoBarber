@@ -15,9 +15,13 @@ const app = express();
 
 app.use(cors());
 app.use(express.json());
+<<<<<<< HEAD
 
 app.use('/files', express.static(uploadConfig.uploadsFolder));
 
+=======
+app.use('/files', express.static(uploadConfig.tmpFolder));
+>>>>>>> b551b0473227187913d775199ae4155f0aafaebc
 app.use(routes);
 
 app.use((err: Error, request: Request, response: Response, _: NextFunction) => {

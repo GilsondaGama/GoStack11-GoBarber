@@ -1,5 +1,9 @@
 import { Request, Response } from 'express';
 import { container } from 'tsyringe';
+<<<<<<< HEAD
+=======
+
+>>>>>>> b551b0473227187913d775199ae4155f0aafaebc
 import SendForgotPasswordEmailService from '@modules/users/services/SendForgotPasswordEmailService';
 
 export default class ForgotPasswordController {
