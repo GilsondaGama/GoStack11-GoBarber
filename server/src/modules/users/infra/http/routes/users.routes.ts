@@ -5,7 +5,7 @@ import uploadConfig from '@config/upload';
 import UsersController from '../controllers/UsersController';
 import UserAvatarController from '../controllers/UserAvatarController';
 
-import ensureAutenticated from '../middlewares/ensureAutenticated';
+import ensureAuthenticated from '../middlewares/ensureAuthenticated';
 
 const usersRouter = Router();
 const usersController = new UsersController();
@@ -17,7 +17,7 @@ usersRouter.post('/', usersController.create);
 
 usersRouter.patch(
   '/avatar',
-  ensureAutenticated,
+  ensureAuthenticated,
   upload.single('avatar'),
   userAvatarController.update,
 );

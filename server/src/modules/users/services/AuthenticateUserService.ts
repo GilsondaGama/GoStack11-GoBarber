@@ -6,7 +6,7 @@ import AppError from '@shared/errors/AppError';
 import IUsersRepository from '../repositories/IUsersRepository';
 import IHashProvider from '../providers/HashProvider/models/IHashProvider';
 
-import User from '../infra/typeorm/entities/User';
+import User from '../infra/typeorm/entities/Users';
 
 interface IRequest {
   email: string;
