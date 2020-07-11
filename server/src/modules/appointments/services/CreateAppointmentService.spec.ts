@@ -1,15 +1,25 @@
 import AppError from '@shared/errors/AppError';
+
+import FakeNotificationRepository from '@modules/notifications/repositories/fakes/FakeNotificationsRepository';
+import FakeCacheProvider from '@shared/container/providers/CacheProvider/fakes/FakeCacheProvider';
 import FakeAppointmentsRepository from '../repositories/fakes/FakeAppointmentsRepository';
 import CreateAppointmentService from './CreateAppointmentService';
 
+let fakeNotificationRepository: FakeNotificationRepository;
 let fakeAppointmentsRepository: FakeAppointmentsRepository;
+let fakeCacheProvider: FakeCacheProvider;
 let createAppointment: CreateAppointmentService;
 
 describe('CreateAppointment', () => {
   beforeEach(() => {
     fakeAppointmentsRepository = new FakeAppointmentsRepository();
+    fakeNotificationRepository = new FakeNotificationRepository();
+    fakeCacheProvider = new FakeCacheProvider();
+
     createAppointment = new CreateAppointmentService(
       fakeAppointmentsRepository,
+      fakeNotificationRepository,
+      fakeCacheProvider,
     );
   });
 
@@ -29,19 +39,27 @@ describe('CreateAppointment', () => {
   });
 
   it('should NOT be able to create two appointments on the same time', async () => {
-    const appointmentDate = new Date(2020, 8, 10, 11);
+    const appointmentDate = new Date(2020, 4, 10, 11);
+
+    jest.spyOn(Date, 'now').mockImplementationOnce(() => {
+      return new Date(2020, 4, 10, 10).getTime();
+    });
 
     await createAppointment.execute({
       date: appointmentDate,
-      user_id: '123123',
-      provider_id: '123123',
+      user_id: 'user-id',
+      provider_id: 'provider-id',
+    });
+
+    jest.spyOn(Date, 'now').mockImplementationOnce(() => {
+      return new Date(2020, 4, 10, 10).getTime();
     });
 
     await expect(
       createAppointment.execute({
         date: appointmentDate,
-        user_id: '123123',
-        provider_id: '123123',
+        user_id: 'user-id',
+        provider_id: 'provider-id',
       }),
     ).rejects.toBeInstanceOf(AppError);
   });
