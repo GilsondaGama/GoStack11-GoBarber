@@ -1,6 +1,6 @@
-# Aula 09 - Continuando Back-end do App
+# Aula 10 - Finalizando Back-end do App
 
-Inicialmente, mapeamos as funcionalidades  do sistema, no seguintes funcionalidades macro e suas subfuncionalidades (micro):
+Nessa aula terminaremos algumas das funcionalidades faltantes, entre elas a listagem do prestador para verificar todos os agendamentos que ele tem por dia. Lembrando dos nossos requisitos:
 
 ## Recuperação de senha
 
