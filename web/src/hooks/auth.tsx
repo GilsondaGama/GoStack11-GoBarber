@@ -1,9 +1,16 @@
 import React, { createContext, useCallback, useState, useContext } from 'react';
+import { string } from 'yup';
 import api from '../services/api';
+
+interface User {
+  id: string;
+  name: string;
+  avatar_url: string;
+}
 
 interface AuthState {
   token: string;
-  user: object;
+  user: User;
 }
 
 interface SignCredentials {
@@ -12,7 +19,7 @@ interface SignCredentials {
 }
 
 interface AuthContextData {
-  user: object;
+  user: User;
   signIn(credentials: SignCredentials): Promise<void>;
   signOut(): void;
 }
