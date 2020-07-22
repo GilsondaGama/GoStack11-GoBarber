@@ -1,5 +1,4 @@
 import React, { createContext, useCallback, useState, useContext } from 'react';
-import { string } from 'yup';
 import api from '../services/api';
 
 interface User {
