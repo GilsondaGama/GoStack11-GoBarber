@@ -21,6 +21,7 @@ export default class ListProvidersService {
   ) {}
 
   public async execute({ user_id }: IRequestDTO): Promise<User[]> {
+    // let users = null; // resetar o cache
     let users = await this.cacheProvider.recover<User[]>(
       `providers-list:${user_id}`,
     );
