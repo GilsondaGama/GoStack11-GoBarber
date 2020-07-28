@@ -1,7 +1,7 @@
 
 <h1 align="center">
 <br>
-  <img src="https://github.com/GilsondaGama/GoStack11-GoBarber/blob/master/github/logoL.svg" alt="GoBarber" width="220">
+  <img src="https://github.com/GilsondaGama/GoStack11-GoBarber/blob/master/github/logoL.svg" alt="GoBarber" width="260">
 <br>
 <br>
 GoStack - GoBarber
@@ -23,15 +23,31 @@ GoStack - GoBarber
 [//]: # (Add the features of your project here:)
 This app features all the latest tools and practices in mobile development!
 
-- ⚛️ **React Js** — A JavaScript library for building user interfaces
-- ⚛️ **React Native** — A lib that provides a way to create native apps for Android and iOS
-- 💹 **Node Js** — A web framework for Node Js
+
+💹 **Backend** 
+- Nodejs
+- Expressjs
+- Axios
+- Sequelize
+- Date-fns
+- Yup (Validações)
+- Postgres (Database)
+- Redis (banco de dados não relacional para fila de envio e-mails)
+- Bee Queue (gerenciamento de filas)
+- Nodemailer (Emails)
+- Multer (Uploads)
+
+⚛️ **React Js** — A JavaScript library for building user interfaces
+
+
+⚛️ **React Native** — A lib that provides a way to create native apps for Android and iOS
 
 ## Getting started
 
 Describe here the way to use/install your project
 
+🔩 Testes
+Dentro da raiz do projeto execute yarn test para executar os testes.
 
-## License
-
+📝 Licença
 This project is licensed under the MIT License - see the [LICENSE](https://opensource.org/licenses/MIT) page for details.
