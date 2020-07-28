@@ -1,7 +1,7 @@
 
 <h1 align="center">
 <br>
-  <img src="YOUR_LOGO_URL" alt="YOUR_PROJECT_NAME" width="120">
+  <img src="https://github.com/GilsondaGama/GoStack11-GoBarber/blob/master/github/logoL.svg" alt="GoBarber" width="220">
 <br>
 <br>
 GoStack - GoBarber
