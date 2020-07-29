@@ -103,7 +103,7 @@ The Mobile was developed with React Nativeand TypeScript. For standardization an
 <br>
 
 ## 🏁 Starting the project
-Clone the project: `git clone https://github.com/RBritoX/GoStack-GoBarber`
+Clone the project: `git clone https://github.com/GilsondaGama/GoStack11-GoBarber`
 
 <br>
 
