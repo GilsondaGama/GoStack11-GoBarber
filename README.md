@@ -34,6 +34,7 @@
 
 <p align="center">
   📝 <a href="#-about-the-project">The Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  📝 <a href="#-screenshots">Screenshots</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   🤖 <a href="#-back-end">Back-End</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   🖥 <a href="#-front-end">Front-End</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   📱 <a href="#-mobile">Mobile</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -45,12 +46,15 @@
 ## 📝 About the project
 GoBarber is an application for barbershop, where the barbers register and inform the days and times available to work, while the client register and choose the barber of their preference, the day and time available to cut their hair.
 
-![jpeg](https://github.com/GilsondaGama/GoStack11-GoBarber/blob/master/github/0.JPG)
-![jpeg](https://github.com/GilsondaGama/GoStack11-GoBarber/blob/master/github/1.jpg)
-![jpeg](https://github.com/GilsondaGama/GoStack11-GoBarber/blob/master/github/2.jpg)
-![jpeg](https://github.com/GilsondaGama/GoStack11-GoBarber/blob/master/github/3.jpg)
-![jpeg](https://github.com/GilsondaGama/GoStack11-GoBarber/blob/master/github/4.jpg)
-![jpeg](https://github.com/GilsondaGama/GoStack11-GoBarber/blob/master/github/5.jpg)
+
+## 📝 Screenshots
+Click to expand.<br>
+<img src="https://github.com/GilsondaGama/GoStack11-GoBarber/blob/master/github/0.JPG" width="32%"/>
+<img src="https://github.com/GilsondaGama/GoStack11-GoBarber/blob/master/github/1.jpg" width="32%"/>
+<img src="https://github.com/GilsondaGama/GoStack11-GoBarber/blob/master/github/2.jpg" width="32%"/>
+<img src="https://github.com/GilsondaGama/GoStack11-GoBarber/blob/master/github/3.jpg" width="32%"/>
+<img src="https://github.com/GilsondaGama/GoStack11-GoBarber/blob/master/github/4.jpg" width="32%"/>
+<img src="https://github.com/GilsondaGama/GoStack11-GoBarber/blob/master/github/5.jpg" width="32%"/>
 
 <br>
 
