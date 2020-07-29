@@ -3,10 +3,6 @@
     <img alt="GoStack" src="https://github.com/GilsondaGama/GoStack11-GoBarber/blob/master/github/logoL.svg" width="450px" />
 </h1>
 
-<h3 align="center">
-  GoBarber
-</h3>
-
 <blockquote align="center">
   “When you're offered a seat on a rocket, you don't ask which seat. You simply board.”!
   <br><cite>— Eric Schmidt</cite>
@@ -36,11 +32,6 @@
   <img alt="React Native version" src="https://img.shields.io/badge/React_Native-v0.62.2-7159c1?style=flat&logoColor=60dafb&logo=react">
 </p>
 
-
-<h3 align="center">
-  Index
-</h3>
-
 <p align="center">
   📝 <a href="#-about-the-project">The Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   🤖 <a href="#-back-end">Back-End</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -48,10 +39,6 @@
   📱 <a href="#-mobile">Mobile</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   🏁 <a href="#-starting-the-project">Starting</a>
 </p>
-
-<h3 align="center">
-  🚧 In Development 🚧
-</h3>
 
 <br>
 
