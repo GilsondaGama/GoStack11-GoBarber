@@ -45,7 +45,12 @@
 ## 📝 About the project
 GoBarber is an application for barbershop, where the barbers register and inform the days and times available to work, while the client register and choose the barber of their preference, the day and time available to cut their hair.
 
-![gif](https://user-images.githubusercontent.com/34657005/80713147-5f4a8400-8ac9-11ea-9f6f-201f171614d3.gif)
+![jpeg](https://github.com/GilsondaGama/GoStack11-GoBarber/blob/master/github/0.JPG)
+![jpeg](https://github.com/GilsondaGama/GoStack11-GoBarber/blob/master/github/1.jpg)
+![jpeg](https://github.com/GilsondaGama/GoStack11-GoBarber/blob/master/github/2.JPG)
+![jpeg](https://github.com/GilsondaGama/GoStack11-GoBarber/blob/master/github/3.JPG)
+![jpeg](https://github.com/GilsondaGama/GoStack11-GoBarber/blob/master/github/4.JPG)
+![jpeg](https://github.com/GilsondaGama/GoStack11-GoBarber/blob/master/github/5.JPG)
 
 <br>
 
