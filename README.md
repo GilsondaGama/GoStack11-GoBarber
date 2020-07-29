@@ -49,12 +49,13 @@ GoBarber is an application for barbershop, where the barbers register and inform
 
 ## 📝 Screenshots
 Click to expand.<br>
-<img src="https://github.com/GilsondaGama/GoStack11-GoBarber/blob/master/github/0.JPG" width="32%"/>
+<img src="https://github.com/GilsondaGama/GoStack11-GoBarber/blob/master/github/0.JPG" width="15%"/>
 <img src="https://github.com/GilsondaGama/GoStack11-GoBarber/blob/master/github/1.jpg" width="32%"/>
 <img src="https://github.com/GilsondaGama/GoStack11-GoBarber/blob/master/github/2.jpg" width="32%"/>
-<img src="https://github.com/GilsondaGama/GoStack11-GoBarber/blob/master/github/3.jpg" width="32%"/>
-<img src="https://github.com/GilsondaGama/GoStack11-GoBarber/blob/master/github/4.jpg" width="32%"/>
-<img src="https://github.com/GilsondaGama/GoStack11-GoBarber/blob/master/github/5.jpg" width="32%"/>
+<br>
+<img src="https://github.com/GilsondaGama/GoStack11-GoBarber/blob/master/github/3.jpg" width="10%"/>
+<img src="https://github.com/GilsondaGama/GoStack11-GoBarber/blob/master/github/4.jpg" width="10%"/>
+<img src="https://github.com/GilsondaGama/GoStack11-GoBarber/blob/master/github/5.jpg" width="10%"/>
 
 <br>
 
