@@ -47,7 +47,7 @@ GoBarber é um aplicativo para barbearia, onde os barbeiros cadastram e informam
 
 <br>
 Click to expand.
-<img src="https://raw.githubusercontent.com/GilsondaGama/GoStack11-GoBarber/master/github/0.jpg" width="30%"/>
+<img src="https://raw.githubusercontent.com/GilsondaGama/GoStack11-GoBarber/master/github/0.JPG" width="30%"/>
 <img src="https://raw.githubusercontent.com/GilsondaGama/GoStack11-GoBarber/master/github/1.jpg" width="35%"/>
 <img src="https://raw.githubusercontent.com/GilsondaGama/GoStack11-GoBarber/master/github/2.jpg" width="35%"/>
 <br>
