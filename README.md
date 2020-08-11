@@ -33,40 +33,30 @@
 </p>
 
 <p align="center">
-  📝 <a href="#-about-the-project">The Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  📝 <a href="#-screenshots">Screenshots</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  📝 <a href="#-about-the-project">Sobre o Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   🤖 <a href="#-back-end">Back-End</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   🖥 <a href="#-front-end">Front-End</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   📱 <a href="#-mobile">Mobile</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  🏁 <a href="#-starting-the-project">Starting</a>
+  🏁 <a href="#-starting-the-project">Iniciando</a>
 </p>
 
 <br>
 
-## 📝 About the project
-GoBarber is an application for barbershop, where the barbers register and inform the days and times available to work, while the client register and choose the barber of their preference, the day and time available to cut their hair.
+## 📝 Sobre o projeto
+GoBarber é um aplicativo para barbearia, onde os barbeiros cadastram e informam os dias e horários disponíveis para trabalhar, enquanto o cliente se cadastra e escolhe o barbeiro de sua preferência, o dia e horário disponível para cortar o cabelo.
 
-
-## 📝 Screenshots
-Click to expand.<br>
-<img src="https://github.com/GilsondaGama/GoStack11-GoBarber/blob/master/github/0.JPG" width="15%"/>
-<img src="https://github.com/GilsondaGama/GoStack11-GoBarber/blob/master/github/1.jpg" width="32%"/>
-<img src="https://github.com/GilsondaGama/GoStack11-GoBarber/blob/master/github/2.jpg" width="32%"/>
-<br>
-<img src="https://github.com/GilsondaGama/GoStack11-GoBarber/blob/master/github/3.jpg" width="10%"/>
-<img src="https://github.com/GilsondaGama/GoStack11-GoBarber/blob/master/github/4.jpg" width="10%"/>
-<img src="https://github.com/GilsondaGama/GoStack11-GoBarber/blob/master/github/5.jpg" width="10%"/>
+![gif](https://user-images.githubusercontent.com/34657005/80713147-5f4a8400-8ac9-11ea-9f6f-201f171614d3.gif)
 
 <br>
 
 ## 🤖 Back-End
-The Back-End was developed with Node.js and TypeScript, in API Rest format.
-For standardization and organization of the code, ESLint, Prettier and EditorConfig were used.
-The connection to the PostgreSQL database was made with DBeaver and Docker to create containers with TypeORM.
-For authentication and user access control, JWT (Json Web Token) was used.
-To upload images, Multer was used.
+O Back-End foi desenvolvido em Node.js e TypeScript, no formato API Rest.
+Para padronização e organização do código, foram usados ESLint, Prettier e EditorConfig.
+A conexão com o banco de dados PostgreSQL foi feita com DBeaver e Docker para criar contêineres com TypeORM.
+Para autenticação e controle de acesso do usuário, foi utilizado JWT (Json Web Token).
+Para fazer upload de imagens, foi usado o Multer.
 
-### 🛠 Technologies
+### 🛠 Technologias
 - **[Node.js](https://nodejs.org/en/)**
 - **[TypeScript](https://www.typescriptlang.org/)**
 - *[Express](https://expressjs.com/pt-br/)*
@@ -82,9 +72,9 @@ To upload images, Multer was used.
 <br>
 
 ## 🖥 Front-End
-The Front-End was developed with React.js and TypeScript. For standardization and organization of the code, ESLint, Prettier and EditorConfig were used. The styling was done with Styled-Components. The navigation screens were made with React Router DOM. The validation of login and registration was done with Yup. To connect with the Back-End, Axios was used.
+O Front-End foi desenvolvido com React.js e TypeScript. Para padronização e organização do código, foram usados ESLint, Prettier e EditorConfig. O estilo foi feito com Styled-Components. As telas de navegação foram feitas com React Router DOM. A validação do login e registro foi feita com o Yup. Para se conectar com o Back-End, foi usado o Axios.
 
-### 🛠 Technologies
+### 🛠 Technologias
 - **[React.js](https://reactjs.org/)**
 - *[React Router DOM](https://reacttraining.com/react-router/web/guides/quick-start)*
 - *[Styled-Components](https://styled-components.com/)*
@@ -98,9 +88,9 @@ The Front-End was developed with React.js and TypeScript. For standardization an
 <br>
 
 ## 📱 Mobile
-The Mobile was developed with React Nativeand TypeScript. For standardization and organization of the code, ESLint, Prettier and EditorConfig were used. The styling was done with Styled-Components. The navigation screens were made with React Navigation. The validation of login and registration was done with Yup. To connect with the Back-End, Axios was used.
+O Mobile foi desenvolvido com React Native e TypeScript. Para padronização e organização do código, foram usados ESLint, Prettier e EditorConfig. O estilo foi feito com Styled-Components. As telas de navegação foram feitas com React Navigation. A validação do login e registro foi feita com o Yup. Para se conectar com o Back-End, foi usado o Axios.
 
-### 🛠 Technologies
+### 🛠 Technologias
 - **[React Native](https://reactnative.dev/)**
 - *[React Navigation](https://reactnavigation.org/)*
 - *[Styled-Components](https://styled-components.com/)*
@@ -112,59 +102,59 @@ The Mobile was developed with React Nativeand TypeScript. For standardization an
 
 <br>
 
-## 🏁 Starting the project
+## 🏁 Iniciando o projeto
 Clone the project: `git clone https://github.com/GilsondaGama/GoStack11-GoBarber`
 
 <br>
 
-🤖 To run the **Back-End**, you must first create a container in Docker and a PostgreSQL database in DBeaver. 
-<br>Then open the terminal and run the following commands:
+🤖 Para iniciar o **Back-End**, você deve primeiro criar um contêiner no Docker e um banco de dados PostgreSQL no DBeaver.
+<br>Em seguida, abra o terminal e execute os seguintes comandos:
 
 ````zsh
-# to enter the Back-End folder
+# para entrar na pasta Back-End
 $ cd backend
 
-# to download the dependencies
+# para download de dependencias
 $ yarn
 
-# to start the application on port 3333
+# para iniciar a aplicação na porta 3333
 $ yarn dev:server
 ````
 <br>
 
-🖥 To run the **Front-End**, in another terminal tab, execute the following commands:
+🖥 Para iniciar o **Front-End**, em outro terminal, execute the following commands:
 
 ````zsh
-# to enter the Front-End folder
+# para entrar na pasta Front-End
 $ cd frontend
 
-# to download the dependencies
+# para download de dependencias
 $ yarn
 
-# to start the application on port 3000
+# tpara iniciar a aplicação na porta 3000
 $ yarn start
 ````
 Now access `http://localhost:3000/`
 
 <br>
 
-📱 To run **Mobile**, you need an Android or iOS simulator (Mac only) running on your computer or connect your physical smartphone to USB. To learn how to install / configure, follow the [RocketSeat tutorial](https://react-native.rocketseat.dev/).
-<br>Now, on another tab of the terminal, run the following commands:
+📱 Para executar **Mobile**, você precisa de um simulador Android ou iOS (somente Mac) em execução no seu computador ou conectar seu smartphone físico ao USB. Para saber como instalar / configurar, siga o [tutorial RocketSeat] (https://react-native.rocketseat.dev/).
+<br> Agora, em outra guia do terminal, execute os seguintes comandos:
 
 ````zsh
-# to enter the Mobile folder
+# para entrar na pasta Mobile
 $ cd mobile
 
-# to download the dependencies
+# para download de dependencias
 $ yarn
 
-# for Android:
-# first open the Android emulator
-# to start the app on the simulator or on the Android physical smartphone connected to the USB device
+# para Android:
+# primeiro abra o emulador Android
+# para iniciar o aplicativo no simulador ou no smartphone físico Android conectado ao dispositivo USB.
 $ yarn android
 
-# for iOS:
-# to launch the app on the simulator or on the physical iOS smartphone connected to the USB device (only using Mac)
+# para iOS:
+# para iniciar o aplicativo no simulador ou no smartphone iOS físico conectado ao dispositivo USB (apenas usando Mac)
 $ yarn ios
 ````
 <br>
@@ -172,7 +162,7 @@ $ yarn ios
 ---
 
 <h3 align="center">
-  Made by Gilson da Gama
+  Feito por Gilson da Gama
 </h3>
 
 <p align="center">
