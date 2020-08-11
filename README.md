@@ -46,15 +46,16 @@
 GoBarber é um aplicativo para barbearia, onde os barbeiros cadastram e informam os dias e horários disponíveis para trabalhar, enquanto o cliente se cadastra e escolhe o barbeiro de sua preferência, o dia e horário disponível para cortar o cabelo.
 
 ## 📝 Screenshots
-Click to expand.<br>
-<img src="https://github.com/GilsondaGama/GoStack11-GoBarber/blob/master/github/0.JPG" width="32%"/>
-<img src="https://github.com/GilsondaGama/GoStack11-GoBarber/blob/master/github/1.jpg" width="32%"/>
-<img src="https://github.com/GilsondaGama/GoStack11-GoBarber/blob/master/github/2.jpg" width="32%"/>
-<img src="https://github.com/GilsondaGama/GoStack11-GoBarber/blob/master/github/3.jpg" width="32%"/>
 <br>
-<img src="https://github.com/GilsondaGama/GoStack11-GoBarber/blob/master/github/4.jpg" width="32%"/>
-<img src="https://github.com/GilsondaGama/GoStack11-GoBarber/blob/master/github/5.jpg" width="32%"/>
-
+Click to expand.
+<br>
+<img src="https://github.com/GilsondaGama/GoStack11-GoBarber/blob/master/github/0.JPG" width="32%"/>
+<img src="https://github.com/GilsondaGama/GoStack11-GoBarber/blob/master/github/1.jpg" width="42%"/>
+<img src="https://github.com/GilsondaGama/GoStack11-GoBarber/blob/master/github/2.jpg" width="42%"/>
+<img src="https://github.com/GilsondaGama/GoStack11-GoBarber/blob/master/github/3.jpg" width="15%"/>
+<br>
+<img src="https://github.com/GilsondaGama/GoStack11-GoBarber/blob/master/github/4.jpg" width="15%"/>
+<img src="https://github.com/GilsondaGama/GoStack11-GoBarber/blob/master/github/5.jpg" width="15%"/>
 <br>
 
 ## 🤖 Back-End
