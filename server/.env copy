@@ -1,5 +1,5 @@
 #Application
-APP_SECRET=
+APP_SECRET=4944e88dcec2be78037c4458ec683da6
 APP_API_URL=http://localhost:3333
 APP_WEB_URL=http://localhost:3000
 
