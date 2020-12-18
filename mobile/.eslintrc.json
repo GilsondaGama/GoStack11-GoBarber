@@ -1,8 +1,6 @@
 {
   "env": {
-    "browser": true,
-    "es6": true,
-    "jest": true
+      "es6": true
   },
   "extends": [
       "plugin:react/recommended",
@@ -32,20 +30,25 @@
   ],
   "rules": {
     "prettier/prettier": "error",
-    "react/jsx-one-expression-per-line": "off",
-    "react/jsx-props-no-spreading": "off",
-    "react/prop-types": "off",
+    "no-use-before-define": "off",
+    "no-unused-expressions": "off",
+    "import/no-extraneous-dependencies": "off",
     "react-hooks/rules-of-hooks": "error",
     "react-hooks/exhaustive-deps": "warn",
-    "no-unused-expressions": "off",
-    "react/jsx-filename-extension": [1, {"extensions": [".tsx"] }],
+    "react/jsx-filename-extension": [1, { "extensions": [".tsx"] }],
+    "react/jsx-props-no-spreading": "off",
     "import/prefer-default-export": "off",
-    "@typescript-eslint/camelcase": "off",
-    "import/no-duplicates": "off",
-    "@typescript-eslint/explicit-function-return-type": [
+    "camelcase": "off",
+    "react/prop-types": "off",
+    "@typescript-eslint/naming-convention": [
       "error",
       {
-        "allowExpressions": true
+        "selector": "interface",
+        "format": ["PascalCase"],
+        "custom": {
+          "regex": "^I[A-Z]",
+          "match": true
+        }
       }
     ],
     "import/extensions": [
